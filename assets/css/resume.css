@@ -57,10 +57,16 @@ h2 {
   font-size: 3rem;
     color: #FFFFCC;
 }
+.list-icons .list-inline-item i{
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
 
 .list-icons .list-inline-item  i:hover{
   color: #99FF66;
-
+  transform: scale(1.2)!important;
 }
 .text
 {
@@ -168,7 +174,7 @@ a {
 .html5 :hover ~ #txthtml{
     display: block;
 }
-					
+
 a:hover, a:focus, a:active {
   color: #99FF66;
 }
