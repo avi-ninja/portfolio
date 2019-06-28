@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  background:  #403D39;
+  background: #403D39;
 }
 
 @media (min-width: 992px) {
@@ -48,48 +48,82 @@ h2 {
   color: #99FF66;
 }
 
-
 .list-social-icons a .fa-lg {
   font-size: 1.75rem;
 }
 
 .list-icons {
   font-size: 3rem;
-    color: #FFFFCC;
+  color: #FFFFCC;
 }
-.list-icons .list-inline-item i{
+
+.list-icons .list-inline-item i {
   transition: transform .2s;
   width: 200px;
   height: 200px;
   cursor: pointer;
 }
 
-.list-icons .list-inline-item  i:hover{
+.list-icons .list-inline-item i:hover {
   color: #99FF66;
-  transform: scale(1.2)!important;
+  transform: scale(1.2) !important;
 }
-.text
-{
-    position: absolute;
-    width: 0;
-    left: 50%;
-    margin-top: 10px;
-    margin-left: 0;
-    transition: 1s;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 18px;
-    color: #99FF66;
+
+.text {
+  position: absolute;
+  width: 0;
+  left: 50%;
+  margin-top: 10px;
+  margin-left: 0;
+  transition: 1s;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 18px;
+  color: #99FF66;
 }
-:hover .text
-{
-    width: 120px;
-    margin-left: -60px;
+
+:hover .text {
+  width: 120px;
+  margin-left: -60px;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.typewritter {
+  display: inline-block;
+  font-family: 'Saira Extra Condensed', serif;
+}
+
+.type_effect {
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing: 2px;
+  animation: typing 10s steps(10000, end), blink .75s step-end infinite;
+  white-space: nowrap;
+  font-size: 6rem;
+  border-right: 4px solid orange;
+  box-sizing: border-box;
+}
+
+@keyframes typing {
+    from {
+        width: 0%
+    }
+    to {
+        width: 60%
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
 }
 
 @media (min-width: 992px) {
@@ -103,16 +137,19 @@ h2 {
     width: 17rem;
     height: 100vh;
   }
+
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
   }
+
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 0, 0, 0.2);
   }
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -120,16 +157,19 @@ h2 {
     width: 100%;
     margin-bottom: auto;
   }
+
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
     width: 100%;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
-     color:#000000 !important;
+    color: #000000 !important;
   }
 }
 
@@ -147,6 +187,7 @@ section.resume-section .resume-item .resume-date {
   section.resume-section {
     min-height: 100vh;
   }
+
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
@@ -171,22 +212,26 @@ a {
   color: #99FF66;
 }
 
-.html5 :hover ~ #txthtml{
-    display: block;
+.html5 :hover~#txthtml {
+  display: block;
 }
 
 a:hover, a:focus, a:active {
   color: #99FF66;
 }
-#mail{
-    text-transform: lowercase
+
+#mail {
+  text-transform: lowercase
 }
-p{
-    color: #FFFFCC !important;
+
+p {
+  color: #FFFFCC !important;
 }
-#flow{
-    color:#FFFFCC
+
+#flow {
+  color: #FFFFCC
 }
-.my-auto{
-    color:#FFFFCC
+
+.my-auto {
+  color: #FFFFCC
 }
