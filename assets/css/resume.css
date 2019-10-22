@@ -165,6 +165,7 @@ h2 {
 
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
+    color: #000000 !important;
   }
 
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
