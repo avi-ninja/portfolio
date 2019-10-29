@@ -47,14 +47,15 @@
                     <a class="nav-link js-scroll-trigger" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#work">My Work</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                    <a class="nav-link js-scroll-trigger" href="#work">Work</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
                 </li>
@@ -69,20 +70,19 @@
 
         <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
             <div class="my-auto typewritter">
-                <h1  class="d-none d-lg-block" class="mb-0 type_effect">Bharath
+                <h1 class="d-none d-lg-block" class="mb-0 type_effect">Bharath
                     <span class="text-primary">Kishore</span>
                 </h1>
-                <h1  class="d-block d-lg-none">Bharath <br>
+                <h1 class="d-block d-lg-none">Bharath <br>
                     <span class="text-primary">Kishore</span>
                 </h1>
                 <div class="d-none d-lg-block subheading mb-5">Bangalore · Karnataka, India · 8792006058 ·
                     <a id="mail" href="bhrthkshr@email.com">bhrthkshr@gmail.com</a>
                 </div>
                 <div class="d-block d-lg-none subheading mb-5">Bangalore · Karnataka, India · <br> 8792006058 ·
-                   <br> <a id="mail" href="bhrthkshr@email.com">bhrthkshr@gmail.com</a>
+                    <br> <a id="mail" href="bhrthkshr@email.com">bhrthkshr@gmail.com</a>
                 </div>
-                <p class="mb-5">I am an aspirant web-developer and a Engineering Graduate specialized in computer
-                    science.
+                <p class="mb-5">I am an aspirant web-developer.
                     <br>I am always eager to learn new concepts related to technolgy and programming.<br> I love
                     spending time fixing little details and building beautiful web apps. I also like working in a team
                     guideing me in the right direction and
@@ -90,7 +90,8 @@
                             we Go.</i></span> web development is not just a career path but my passion.</p>
                 <ul class="list-inline list-social-icons mb-0">
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/kishore.bhrth" target="_blank">
+                        <a href="https://www.facebook.com/kishore.bhrth" target="_blank" data-toggle="tooltip"
+                            data-placement="top" title="Facebook">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -98,7 +99,8 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://twitter.com/Bhrthkshr" target="_blank">
+                        <a href="https://twitter.com/Bhrthkshr" target="_blank" data-toggle="tooltip"
+                            data-placement="top" title="Twitter">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -106,7 +108,8 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/in/bharath-kishore-7b458316a/" target="_blank">
+                        <a href="https://www.linkedin.com/in/bharath-kishore-7b458316a/" target="_blank"
+                            data-toggle="tooltip" data-placement="top" title="Linked in">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -114,10 +117,20 @@
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://github.com/bhrthkshr" target="_blank">
+                        <a href="https://github.com/bhrthkshr" target="_blank" data-toggle="tooltip"
+                            data-placement="top" title="Github">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://gitlab.com/bhrthkshr" target="_blank" data-toggle="tooltip"
+                            data-placement="top" title="GitLab">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
@@ -126,73 +139,161 @@
         </section>
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="work">
             <div class="my-auto">
-                <h2 class="mb-5">My work</h2>
+                <h2 class="mb-5">work</h2>
                 <ul class="fa-ul mb-1">
                     <li>
+                        <i class="fa-li fa fa-briefcase text-warning"></i> Works at TheDroid.io
+                        <div class="mb-4"></div>
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
+                            href="https://web.saveo.in/" target="_blank" data-toggle="tooltip" data-placement="top"
+                            title="visit live Site"> Saveo (E-commerce)</a>
+                        <br>
+                        <div class="mb-2"></div>
+                        <span>
+                            Saveo is a B2B E-commerce platform, I was responsible for building the project from start to
+                            end, The web app is built with Angular8 and few other libraries like RxJS (reactive
+                            programming), Angular Material
+                            Design, Flexlayout, flexbox, SCSS, Google Firebase Authentication (phone Authentication).
+                        </span>
+                    </li>
+                    <div class="mb-3"></div>
+
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
+                            href="https://codreamers-4083c.firebaseapp.com" target="_blank" data-toggle="tooltip"
+                            data-placement="top" title="visit live Site">Intugine Dashboard </a>
+                        <br>
+                        <div class="mb-2"></div>
+                        <span>
+                            A platform for logistics management, my responsibilities during this project were to add new
+                            features as per requirement, update existing features and maintain the same, built with
+                            Angular8 and few other libraries like NgRx, RxJS.
+
+                        </span>
+                    </li>
+                    <div class="mb-3"></div>
+
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
+                            href="http://learn-70aed.firebaseapp.com/" target="_blank" data-toggle="tooltip"
+                            data-placement="top" title="visit live Site">Api platform</a><br>
+                        <div class="mb-2"></div>
+
+                        <span>
+                            A platform for automated API building, I was responsible for building the app from start,
+                            built with Angular8, custom Authentication system, RxJS, SCSS, FlexLayout, Angular material
+                            design, and few other common libraries.
+
+                        </span>
+                    </li>
+                    <div class="mb-3"></div>
+
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
+                            href="https://intugine.com" target="_blank" data-toggle="tooltip" data-placement="top"
+                            title="visit live Site"> Intugine Web</a>
+                        <br>
+                        <div class="mb-2"></div>
+
+                        <span>
+                            A static, fully responsive web app, reusable component and model-based system built with
+                            Angular8, SCSS, FlexLayout and additional libraries like Angular material design, RxJS, and
+                            basic REST API.
+                        </span>
+                    </li>
+                    <div class="mb-3"></div>
+
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
+                            href="http://saveo.in" target="_blank" data-toggle="tooltip" data-placement="top"
+                            title="visit live Site"> Saveo Web</a><br>
+                        <div class="mb-2"></div>
+
+                        <span>
+                            A static, fully responsive web app built with Angular8, SCSS, and additional libraries like
+                            Angular material design, RxJS, and basic REST API.
+                        </span>
+                    </li>
+                    <div class="mb-3"></div>
+
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
+                            href="http://flipr.ai" target="_blank" data-toggle="tooltip" data-placement="top"
+                            title="visit live Site"> Flipr.ai</a><br>
+                        <div class="mb-2"></div>
+                        <span>A static, fully responsive web app built with Angular8, SCSS,FlexLayout, component and
+                            model based approch, and additional libraries like
+                            Angular material design, RxJS, and basic REST API.</span>
+                    </li>
+                    </li>
+                    <div class="mb-3"></div>
+                    <li>
+                        <i class="fa-li fa fa-briefcase text-warning"></i> Works at CIOC FMCG
+                        <div class="mb-4"></div>
+
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a>LibreERP </a><br>
+                        <div class="mb-2"></div>
+
+                        <span>
+                            LibreERP is a opensource business process management software to manage finace expenses,
+                            project management tools, employee management and so on.., I was responsible for adding new
+                            features
+                            and maintain existing code the web app is built using Django and AngularJS and few other
+                            python libraries to Automate the process like reportlab, zklib, Javascript libraries like
+                            chartJS, fabricJs and many more.
+                        </span>
+                    </li>
+                    </li>
+                    <div class="mb-3"></div>
+
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
+                            href="https://24tutors.com/" target="_blank" data-toggle="tooltip" data-placement="top"
+                            title="visit live Site"> 24Tutors</a>
+                        <br>
+                        <div class="mb-2"></div>
+
+                        <span>
+                            24Tutors is a site that provides online content and study materials for IIT JEE Preparation.
+                            Built with Django for backend and AngularJS, Bootstrap for frontend.
+                        </span>
+                    </li>
+                    <div class="mb-3"></div>
+
+                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
+                            href="https://epsilonai.com/" target="_blank" data-toggle="tooltip" data-placement="top"
+                            title="visit live Site">EpsilionAi </a><br>
+                        <div class="mb-2"></div>
+
+                        <span>
+                            A static site Built using AngularJS, Bootstrap, and Django.
+                        </span>
+                    </li>
+                    </li>
+
+                    <div class="mb-5"></div>
+                    <li>
+
                         <i class="fa-li fa fa-archive text-warning"></i> Assignments
+                        <div class="mb-4"></div>
+
                     <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i>
                         <a href="https://bhrthkshr.github.io/finding_falcone/" target="_blank" data-toggle="tooltip"
                             data-placement="top"
                             title="A web app as part of a coding Task by company GeekTrust.">Finding Falcone</a> -
                         GeekTrust Assignment</li>
+                    <div class="mb-2"></div>
+
                     <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i>
                         <a href="https://bhrthkshr.github.io/banking/" target="_blank" data-toggle="tooltip"
                             data-placement="top"
                             title="A web app for company Fyle as Assignment during Interview process for joining the company.">Bank
                             Searching</a> - Fyle Assignment</li>
+                    <div class="mb-2"></div>
+
                     <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i>
                         <a href="https://bhrthkshr.github.io/droid.io/" target="_blank" data-toggle="tooltip"
                             data-placement="top"
                             title="A web app for company TheDroid.io as Assignment during Interview process for joining the company.">Plotting
                             Chart</a> - TheDriod.io Assignment</li>
                     </li>
-                    <li>
-                        <i class="fa-li fa fa-briefcase text-warning"></i> Works at Intership
-                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
-                            href="https://24tutors.com/" target="_blank"> 24Tutors</a></li>
-                    <li style="margin-left: 40px;"><i class="fa-li fa fa-globe text-warning"></i><a
-                            href="https://epsilonai.com/" target="_blank">EpsilionAi </a></li>
-                    </li>
                 </ul>
             </div>
 
-        </section>
-
-        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-            <div class="my-auto">
-                <h2 class="mb-5">Education</h2>
-
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Yellamma Dasappa Institute Of Techonolgy (VTU affliated)</h3>
-                        <div class="subheading mb-3">Bachelor of Engineering</div>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary"> 2013 - 2019 </span>
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Shree Swaminarayan International College </h3>
-                        <div class="subheading mb-3">Pre-University</div>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary">2011 - 2013</span>
-                    </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                    <div class="resume-content mr-auto">
-                        <h3 class="mb-0">Shree Swaminarayan International School</h3>
-                        <div class="subheading mb-3">10th Boards (IGCSE)</div>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="text-primary"> November 2010</span>
-                    </div>
-                </div>
-
-            </div>
         </section>
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
@@ -202,26 +303,39 @@
                 <div class="subheading mb-3">Programming</div>
                 <ul class="list-inline list-icons">
                     <li class="list-inline-item">
-                        <i class="devicon-html5-plain-wordmark" data-toggle="tooltip" data-placement="top" title="HTML 5"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-css3-plain-wordmark"  data-toggle="tooltip" data-placement="top" title="CSS 3"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="devicon-javascript-plain"  data-toggle="tooltip" data-placement="top" title="Vanilla JavaScript"></i>
+                        <i class="devicon-angularjs-plain" data-toggle="tooltip" data-placement="top"
+                            title="AngularJS (1 & 2+)"></i>
                     </li>
                     <li class="list-inline-item">
                         <i class="devicon-django-plain" data-toggle="tooltip" data-placement="top"
-                        title="Django (web Framework)"></i>
-                    </li>
-                    <li class="list-inline-item" >
-                        <i class="devicon-python-plain-wordmark" data-toggle="tooltip" data-placement="top" title="Python"></i>
+                            title="Django (web Framework)"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="devicon-angularjs-plain-wordmark" data-toggle="tooltip" data-placement="top" title="AngularJS (1 & 2+)"></i>
+                        <i class="devicon-javascript-plain" data-toggle="tooltip" data-placement="top"
+                            title="Vanilla JavaScript"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="devicon-bootstrap-plain-wordmark" data-toggle="tooltip" data-placement="top" title="BootStrap 3"></i>
+                        <i class="devicon-python-plain-wordmark" data-toggle="tooltip" data-placement="top"
+                            title="Python"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicon-typescript-plain" data-toggle="tooltip" data-placement="top"
+                            title="Typescript"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicon-html5-plain-wordmark" data-toggle="tooltip" data-placement="top"
+                            title="HTML 5"></i>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <i class="devicon-css3-plain-wordmark" data-toggle="tooltip" data-placement="top"
+                            title="CSS 3"></i>
+                    </li>
+
+
+                    <li class="list-inline-item">
+                        <i class="devicon-bootstrap-plain-wordmark" data-toggle="tooltip" data-placement="top"
+                            title="BootStrap 3"></i>
                     </li>
 
                 </ul>
@@ -230,14 +344,25 @@
 
                 <ul class="list-inline list-icons">
                     <li class="list-inline-item">
-                        <i class="devicon-git-plain-wordmark" data-toggle="tooltip" data-placement="top" title="Git Source Control"></i>
+                        <i class="devicon-git-plain-wordmark" data-toggle="tooltip" data-placement="top"
+                            title="Git Source Control"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="devicon-github-plain-wordmark" data-toggle="tooltip" data-placement="top" title="Github"></i>
+                        <i class="devicon-github-plain-wordmark" data-toggle="tooltip" data-placement="top"
+                            title="Github"></i>
                     </li>
 
                     <li class="list-inline-item">
-                        <i class="devicon-atom-original"  data-toggle="tooltip" data-placement="top" title="Atom code Editor"></i>
+                        <i class="devicon-atom-original" data-toggle="tooltip" data-placement="top"
+                            title="Atom code Editor"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicon-visualstudio-plain" data-toggle="tooltip" data-placement="top"
+                            title="VS Code Editor"></i>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="devicon-gimp-plain" data-toggle="tooltip" data-placement="top"
+                            title="GIMP image editor"></i>
                     </li>
                 </ul>
                 <div class="mb-5"></div>
@@ -245,65 +370,69 @@
 
                 <ul class="list-inline list-icons">
                     <li class="list-inline-item">
-                        <i class="devicon-linux-plain"  data-toggle="tooltip" data-placement="top" title="Linux"></i>
+                        <i class="devicon-linux-plain" data-toggle="tooltip" data-placement="top" title="Linux"></i>
                     </li>
                     <li class="list-inline-item">
-                        <i class="devicon-windows8-original" data-toggle="tooltip" data-placement="top" title="Windows"></i>
+                        <i class="devicon-windows8-original" data-toggle="tooltip" data-placement="top"
+                            title="Windows"></i>
                     </li>
                 </ul>
-
-
-                <!-- <ul class="list-inline list-icons">
-                    <li class="list-inline-item"  data-toggle="tooltip" data-placement="top" title="HTML 5">
-                        <i class="devicon-html5-plain-wordmark"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="CSS 3">
-                        <i class="devicon-css3-plain-wordmark"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Vanilla JavaScript">
-                        <i class="devicon-javascript-plain"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Django (web Framework)">
-                        <i class="devicon-django-plain"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Python">
-                        <i class="devicon-python-plain-wordmark"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="AngularJS (1 & 2+)">
-                        <i class="devicon-angularjs-plain-wordmark"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Git Source Control">
-                        <i class="devicon-git-plain-wordmark"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Github">
-                        <i class="devicon-github-plain-wordmark"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="BootStrap 3">
-                        <i class="devicon-bootstrap-plain-wordmark"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Atom code Editor">
-                        <i class="devicon-atom-original"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Linux (Operating System)">
-                        <i class="devicon-linux-plain"></i>
-                    </li>
-                    <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Windows (Operating System)">
-                        <i class="devicon-windows8-original"></i>
-                    </li>
-                </ul> -->
             </div>
     </div>
     </section>
 
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+            <h2 class="mb-5">Education</h2>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Yellamma Dasappa Institute Of Techonolgy (VTU affliated)</h3>
+                    <div class="subheading mb-3">Bachelor of Engineering</div>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary"> 2013 - 2019 </span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Shree Swaminarayan International College </h3>
+                    <div class="subheading mb-3">Pre-University</div>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">2011 - 2013</span>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Shree Swaminarayan International School</h3>
+                    <div class="subheading mb-3">10th Boards (IGCSE)</div>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary"> November 2010</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
             <h2 class="mb-5">Interests</h2>
-            <p>Apart from programming, I enjoy most of my time tweking and DIY stuffs, I also like bike rides, and
-                sketching.</p>
-            <p class="mb-0">When forced indoors, I follow a number of sci-fi and Animated movies, I am an aspiring chef,
+            <p>Currently focused on learning NextJs (reactJs), and trying to dedicate some time to contribute for open
+                source development. </p>
+            <p>When forced indoors, I follow a number of sci-fi and Animated movies, I am an aspiring chef,
                 and I spend a large amount of my free time exploring the latest technolgy advancements in the field of
-                <i>Web
-                    Development</i> and <i>Cyber-Security</i> world.</p>
+                <i>Web Development</i> and <i>Cyber-Security</i> world.</p>
+            <p>Apart from programming, I enjoy most of my time tweking and DIY stuffs, I also like bike rides, and
+                sketching. <a href="https://www.instagram.com/bhrthkishore/" target="_blank"><i>follow me on </i> <i
+                        class="fa fa-instagram"></i></a></p>
+
+
     </section>
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="bucket">
         <div class="my-auto">
